@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# Create five different greeting messages
+Message.create!(content: "Hello, world!")
+Message.create!(content: "Greetings from the Rails and React app!")
+Message.create!(content: "May your day be filled with joy!")
+Message.create!(content: "Welcome to the wonderful world of web development!")
+Message.create!(content: "Happy coding!")

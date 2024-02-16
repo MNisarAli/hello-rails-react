@@ -1,24 +1,207 @@
-# README
+<a name="readme-top"></a>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<div align="center">
 
-Things you may want to cover:
+  [![Rails](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/150px-Ruby_On_Rails_Logo.svg.png "rubyonrails") ](https://rubyonrails.org/)
+</div>
 
-* Ruby version
 
-* System dependencies
+<!-- TABLE OF CONTENTS -->
+# 📗 Table of Contents
 
-* Configuration
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello Rails React ](#-hello-rails-react-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Installation](#installation)
+    - [Database Setup](#database-setup)
+    - [Running the App](#running-the-app)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [💖 Show your support ](#-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-* Database creation
+<!-- PROJECT DESCRIPTION -->
+# 📖 Hello Rails React <a name="about-project"></a>
 
-* Database initialization
+**Hello Rails React** is an exercise to connect prior knowledge with new skills by using Webpack alongside the jsbundling-rails gem. It provides practical experience in modern web development and JavaScript bundling, serving as a valuable resource for skill enhancement.
 
-* How to run the test suite
+## 🛠 Built With <a name="built-with"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+### Tech Stack <a name="tech-stack"></a>
 
-* Deployment instructions
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="https://rubyonrails.org/">RubyOnRails</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://www.redux.js.org/">Redux</a></li>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+  </ul>
+</details>
 
-* ...
+<details>
+  <summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+### Key Features <a name="key-features"></a>
+
+The key features of this project include.
+
+- **Random Greetings API Integration**
+- **React Integration**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+Before you begin, make sure you have the following installed on your machine:
+
+- [x] Ruby: You can download Ruby [here](https://www.ruby-lang.org/en/downloads/).
+- [x] Rails: You can install Rails by running the command `gem install rails` in your terminal.
+- [x] A code editor (like VSCode, Sublime, Atom, etc.): You can download VSCode [here](https://code.visualstudio.com/download), Sublime [here](https://www.sublimetext.com/3), and Atom [here](https://atom.io/).
+- [x] Git: You can download Git [here](https://git-scm.com/downloads).
+- [x] Node.js: You can download Node.js [here](https://nodejs.org/en/download/).
+
+### Setup
+
+To setup this project locally:
+
+1. Open terminal in VScode.
+2. Navigate to the directory where you want clone the copy of this repository.
+3. Create new directory [optional].
+4. Clone the repository by running the following command:
+
+```
+git clone git@github.com:MNisarAli/hello-rails-react.git
+```
+
+5. Navigate into the cloned repository:
+
+```
+cd hello-rails-react
+```
+
+### Installation
+
+Install the required dependencies by running the following command:
+
+```
+bundle install
+yarn install
+```
+
+### Database Setup
+
+To create the database, run the following command:
+
+```
+rails db:create
+```
+
+To migrate the database schema, run the following command:
+
+```
+rails db:migrate
+```
+
+### Running the App
+
+To run the application, run the following command:
+
+```
+rails server
+bin/dev
+```
+
+This will start the Rails development server and you can access the application by visiting http://localhost:3000 in your web browser.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
+
+The collaborators of this project.
+
+👨‍🚀 **M Nisar Ali**
+
+- GitHub: [@MNisarAli](https://github.com/MNisarAli)
+- Gmail: [@dr.nisaralig@gmail.com](mailto:dr.nisaralig@gmail.com)
+- LinkedIn: [@Muhammad Nisar Ali](https://www.linkedin.com/in/muhammad-nisar-ali)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **More conditional checking and features will be added in future**
+- [ ] **Implementation of some UX improvements: transitions and/or animations, etc.**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- SUPPORT -->
+## 💖 Show your support <a name="support"></a>
+
+Give a ⭐️, if you like this project!, also follow me on [GitHub](https://github.com/MNisarAli) & [LinkedIn](https://www.linkedin.com/in/muhammad-nisar-ali).
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+ I would like to thank:
+- [Microverseinc](https://github.com/microverseinc) for [Readme-template](https://github.com/microverseinc/readme-template).
+- [Rails](https://rubyonrails.org/) for the amazing framework.
+- [React](https://reactjs.org/) for the amazing library.
+- [Webpack](https://webpack.js.org/) for the amazing bundler.
+- [PostgreSQL](https://www.postgresql.org/) for the amazing database.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

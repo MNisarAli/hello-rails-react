@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchRandomGreeting } from '../reducers/greetingSlice';
+import { fetchRandomGreeting } from '../redux/reducers/greetingSlice';
 
 const Greeting = () => {
   const dispatch = useDispatch();
@@ -8,9 +8,9 @@ const Greeting = () => {
 
   useEffect(() => {
     dispatch(fetchRandomGreeting());
-  }, [dispatch]);
+  }, []);
 
-  return <h2>{message}</h2>;
+  return <h2>Hi!: {message}</h2>;
 };
 
 export default Greeting;

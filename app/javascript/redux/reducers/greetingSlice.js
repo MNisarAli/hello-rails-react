@@ -17,6 +17,9 @@ const greetingSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
+      .addCase(fetchRandomGreeting.pending, (state) => {
+        state.message = 'Loading...';
+      })
       .addCase(fetchRandomGreeting.fulfilled, (state, action) => {
         state.message = action.payload;
       })
